@@ -6,5 +6,6 @@ package com.callcentre.callcentre.model
  */
 data class Operator (
         val id:Int,
-        var answeredCallsCount :Int = 0
+        var answeredCallsCount :Int = 0,
+        var profit:Int = 0
 )

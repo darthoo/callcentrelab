@@ -70,6 +70,13 @@
         android:layout_below="@id/progressBar"
         android:visibility="gone" />
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/operatorsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/progressBar"
+        android:visibility="gone" />
+
     <Button
         android:id="@+id/btnStart"
         android:layout_width="match_parent"
@@ -84,6 +91,34 @@
         android:layout_alignParentBottom="true"
         android:text="Show details"
         android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabOperators"
+        android:src="@drawable/ic_businessman"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabInfo"
+        android:src="@drawable/ic_info"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>
